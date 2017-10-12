@@ -1,9 +1,0 @@
-# coding: utf-8
-
-# 変数のスコープのテスト
-gv = "初期値です。" #大域変数
-
-
-# 大域変数と同名の局所変数を使用する例
-a = argtest2(name="tanaka",country="japan",age="41")
-print ("引数の個数",a)
